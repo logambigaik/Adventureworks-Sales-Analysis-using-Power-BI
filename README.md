@@ -8,6 +8,9 @@ It provides key insights into sales performance, profit trends, and regional dyn
 🔗 **Live Report Link**  
 👉 [View Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiM2M3YzMwMGEtOGU2Ny00ZWMzLWI5MzAtOWU2Y2EyZmRhOGJmIiwidCI6IjZlZmQwZjIwLTU3YzgtNDQ0Ny1iNTNmLTAwZDQ5OTJjYTUwYiJ9)
 
+![image](https://github.com/user-attachments/assets/80752501-7441-4688-9376-a45c5fd4dfac)
+
+
 ---
 
 ## 🧾 Project Overview
@@ -36,13 +39,11 @@ The dashboard provides a comprehensive summary of sales data including:
 
 ## 🖼️ Screenshot Previews
 
-> 💡 _Tip: Add actual screenshots in your repo's `assets/` folder and link below._
-
 ### 📊 Main Dashboard View  
-![Dashboard Overview](./assets/main-dashboard.png)
+![image](https://github.com/user-attachments/assets/7da9fc0a-c310-4a2c-b77b-7068297e70d9)
 
 ### 🗺️ Regional Map View  
-![Map Visual](./assets/region-map.png)
+![image](https://github.com/user-attachments/assets/032f95d1-dd01-47c6-8a09-baa4f6f25e89)
 
 ---
 
@@ -63,14 +64,6 @@ The dashboard provides a comprehensive summary of sales data including:
    - Country
    - Category / Segment
 3. Hover for tooltips and export visuals as needed
-
----
-
-## ✨ Author
-
-**Logambigai Kuppusamy**  
-🔗 [Power BI Public Profile](https://app.powerbi.com)  
-🔗 [LinkedIn (Optional)](https://linkedin.com/in/your-name)
 
 ---
 
