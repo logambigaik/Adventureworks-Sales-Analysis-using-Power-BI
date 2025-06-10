@@ -37,16 +37,6 @@ The dashboard provides a comprehensive summary of sales data including:
 
 ---
 
-## 🖼️ Screenshot Previews
-
-### 📊 Main Dashboard View  
-![image](https://github.com/user-attachments/assets/7da9fc0a-c310-4a2c-b77b-7068297e70d9)
-
-### 🗺️ Regional Map View  
-![image](https://github.com/user-attachments/assets/032f95d1-dd01-47c6-8a09-baa4f6f25e89)
-
----
-
 ## ⚙️ Tools Used
 
 - **Power BI Desktop / Service**
