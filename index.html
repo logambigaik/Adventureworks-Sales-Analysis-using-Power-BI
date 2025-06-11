@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Power BI Labs</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f6f8;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 10px 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border-radius: 8px;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .accordion-header {
+      padding: 15px 20px;
+      cursor: pointer;
+      background-color: #0078d4;
+      color: white;
+      font-size: 1.1em;
+      transition: background 0.3s ease;
+    }
+
+    .accordion-header:hover {
+      background-color: #005fa3;
+    }
+
+    .accordion-content {
+      display: none;
+      padding: 15px 20px;
+      background-color: #fff;
+      border-top: 1px solid #ccc;
+    }
+
+    .lab {
+      border-left: 4px solid #0078d4;
+      padding: 12px 16px;
+      margin: 10px 0;
+      background: #f9f9fc;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .lab:hover {
+      transform: scale(1.03);
+      background-color: #eaf4ff;
+    }
+
+    .lab-title {
+      font-weight: bold;
+      color: #1d3557;
+    }
+
+    .lab-desc {
+      font-size: 0.95em;
+      margin-top: 4px;
+    }
+
+    @media (max-width: 600px) {
+      .accordion-header {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="accordion-section">
+      <div class="accordion-header">🗂 Data Preparation and Loading</div>
+      <div class="accordion-content">
+        <div class="lab">
+          <div class="lab-title">Lab 1: Get Data in Power BI Desktop</div>
+          <div class="lab-desc">Learned how to connect to various data sources like Excel, CSV, and web datasets and import them into Power BI.</div>
+        </div>
+        <div class="lab">
+          <div class="lab-title">Lab 2: Load Transformed Data in Power BI Desktop</div>
+          <div class="lab-desc">Used Power Query Editor to clean, transform, and load data into Power BI's data model.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">🧩 Data Modeling and Calculations</div>
+      <div class="accordion-content">
+        <div class="lab">
+          <div class="lab-title">Lab 3: Design a Data Model in Power BI</div>
+          <div class="lab-desc">Built relationships between tables and optimized data types for analysis.</div>
+        </div>
+        <div class="lab">
+          <div class="lab-title">Lab 4: Create DAX Calculations in Power BI Desktop</div>
+          <div class="lab-desc">Created calculated columns and measures using basic DAX.</div>
+        </div>
+        <div class="lab">
+          <div class="lab-title">Lab 5: Create Advanced DAX Calculations</div>
+          <div class="lab-desc">Applied time intelligence and logical functions for deeper insights.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">📊 Report Design and Enhancement</div>
+      <div class="accordion-content">
+        <div class="lab">
+          <div class="lab-title">Lab 6: Design a Report in Power BI Desktop</div>
+          <div class="lab-desc">Built interactive dashboards using visuals, filters, and slicers.</div>
+        </div>
+        <div class="lab">
+          <div class="lab-title">Lab 7: Enhance a Report in Power BI Desktop</div>
+          <div class="lab-desc">Improved layout, added bookmarks, tooltips, and clean formatting.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">📈 Data Analysis and Security</div>
+      <div class="accordion-content">
+        <div class="lab">
+          <div class="lab-title">Lab 8: Perform Data Analysis in Power BI</div>
+          <div class="lab-desc">Explored trends and insights using DAX and visual analytics.</div>
+        </div>
+        <div class="lab">
+          <div class="lab-title">Lab 10: Enforce Row-Level Security</div>
+          <div class="lab-desc">Implemented role-based access to restrict sensitive data views.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const headers = document.querySelectorAll('.accordion-header');
+    headers.forEach(header => {
+      header.addEventListener('click', () => {
+        const content = header.nextElementSibling;
+        const isOpen = content.style.display === 'block';
+        document.querySelectorAll('.accordion-content').forEach(c => c.style.display = 'none');
+        content.style.display = isOpen ? 'none' : 'block';
+      });
+    });
+  </script>
+</body>
+</html>
